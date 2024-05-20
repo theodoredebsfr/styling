@@ -54,3 +54,12 @@ menu li:last-child button {
 menu li:last-child button:hover {
   background: linear-gradient(#bd4e4e, #cd3030);
 }
+#exercise .heading {
+  color: white;
+}
+#exercise .heading.red {
+  color: red;
+}
+#exercise .heading.green {
+  color: green;
+}
