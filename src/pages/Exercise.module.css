@@ -1,4 +1,4 @@
-#exercise {
+.exercise {
   margin: 2rem auto;
   padding: 1rem;
   max-width: 30rem;
@@ -8,14 +8,14 @@
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
-h1 {
+.exercise h1 {
   letter-spacing: 0.15rem;
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   margin-bottom: 2.5rem;
 }
 
-menu {
+.exercise menu {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -24,7 +24,7 @@ menu {
   justify-content: center;
 }
 
-menu button {
+.exercise menu button {
   width: 5rem;
   text-align: center;
   border: none;
@@ -54,12 +54,13 @@ menu li:last-child button {
 menu li:last-child button:hover {
   background: linear-gradient(#bd4e4e, #cd3030);
 }
-#exercise .heading {
+
+.heading {
   color: white;
 }
-#exercise .heading.red {
+.heading.red {
   color: red;
 }
-#exercise .heading.green {
+.heading.green {
   color: green;
 }

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Exercise.css";
+import classes from "./Exercise.module.css";
 
 const Exercise = () => {
   const [color, setColor] = useState("white");
@@ -8,8 +8,10 @@ const Exercise = () => {
   return (
     <>
       <Text />
-      <div id="exercise">
-        <h1 className={`heading ${color}`}>CSS is great!</h1>
+      <div className={classes.exercise}>
+        <h1 className={`${classes.heading} ${classes?.[color]}`}>
+          CSS is great!
+        </h1>
         <menu>
           <li>
             <button onClick={yesHandler}>Yes</button>
@@ -25,6 +27,6 @@ const Exercise = () => {
 export default Exercise;
 const Text = () => (
   <code>
-    <pre></pre>
+    <pre>using css modules</pre>
   </code>
 );
